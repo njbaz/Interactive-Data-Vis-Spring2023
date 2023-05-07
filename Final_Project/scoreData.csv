@@ -1,0 +1,796 @@
+state,demographic,scoreDiff
+National,All students,-5
+Alabama,All students,0
+Alaska,All students,-6
+Arizona,All students,-6
+Arkansas,All students,-5
+California,All students,-5
+Colorado,All students,-6
+Connecticut,All students,-7
+Delaware,All students,-13
+District of Columbia,All students,-12
+Florida,All students,-5
+Georgia,All students,-3
+Hawaii,All students,-2
+Idaho,All students,-6
+Illinois,All students,0
+Indiana,All students,-6
+Iowa,All students,-1
+Kansas,All students,-4
+Kentucky,All students,-5
+Louisiana,All students,-2
+Maine,All students,-8
+Maryland,All students,-10
+Massachusetts,All students,-5
+Michigan,All students,-4
+Minnesota,All students,-9
+Mississippi,All students,-7
+Missouri,All students,-6
+Montana,All students,-2
+Nebraska,All students,-2
+Nevada,All students,-7
+New Hampshire,All students,-6
+New Jersey,All students,-7
+New Mexico,All students,-10
+New York,All students,-10
+North Carolina,All students,-5
+North Dakota,All students,-3
+Ohio,All students,-3
+Oklahoma,All students,-8
+Oregon,All students,-8
+Pennsylvania,All students,-6
+Puerto Rico,All students,-7
+Rhode Island,All students,-5
+South Carolina,All students,-3
+South Dakota,All students,-2
+Tennessee,All students,-4
+Texas,All students,-5
+Utah,All students,-4
+Vermont,All students,-5
+Virginia,All students,-11
+Washington,All students,-5
+West Virginia,All students,-5
+Wisconsin,All students,-2
+Wyoming,All students,-3
+National,White,-3
+Alabama,White,1
+Alaska,White,-5
+Arizona,White,-3
+Arkansas,White,-4
+California,White,-5
+Colorado,White,-5
+Connecticut,White,-4
+Delaware,White,-14
+District of Columbia,White,-6
+Florida,White,-1
+Georgia,White,-3
+Hawaii,White,-8
+Idaho,White,-5
+Illinois,White,2
+Indiana,White,-4
+Iowa,White,-1
+Kansas,White,-4
+Kentucky,White,-5
+Louisiana,White,-1
+Maine,White,-8
+Maryland,White,-3
+Massachusetts,White,-6
+Michigan,White,-2
+Minnesota,White,-8
+Mississippi,White,-6
+Missouri,White,-5
+Montana,White,-2
+Nebraska,White,-2
+Nevada,White,-5
+New Hampshire,White,-6
+New Jersey,White,-5
+New Mexico,White,-9
+New York,White,-8
+North Carolina,White,-6
+North Dakota,White,-2
+Ohio,White,-1
+Oklahoma,White,-6
+Oregon,White,-10
+Pennsylvania,White,-6
+Puerto Rico,White,
+Rhode Island,White,-3
+South Carolina,White,-2
+South Dakota,White,-2
+Tennessee,White,-2
+Texas,White,-2
+Utah,White,-2
+Vermont,White,-5
+Virginia,White,-6
+Washington,White,-4
+West Virginia,White,-5
+Wisconsin,White,-1
+Wyoming,White,-4
+National,Black,-7
+Alabama,Black,-2
+Alaska,Black,
+Arizona,Black,-8
+Arkansas,Black,-8
+California,Black,-9
+Colorado,Black,0
+Connecticut,Black,-16
+Delaware,Black,-13
+District of Columbia,Black,-16
+Florida,Black,-8
+Georgia,Black,-2
+Hawaii,Black,
+Idaho,Black,
+Illinois,Black,-3
+Indiana,Black,-3
+Iowa,Black,-4
+Kansas,Black,-7
+Kentucky,Black,-13
+Louisiana,Black,-3
+Maine,Black,-8
+Maryland,Black,-11
+Massachusetts,Black,-9
+Michigan,Black,-7
+Minnesota,Black,-12
+Mississippi,Black,-10
+Missouri,Black,-12
+Montana,Black,
+Nebraska,Black,-1
+Nevada,Black,-8
+New Hampshire,Black,
+New Jersey,Black,-13
+New Mexico,Black,
+New York,Black,-6
+North Carolina,Black,-8
+North Dakota,Black,-14
+Ohio,Black,-13
+Oklahoma,Black,-21
+Oregon,Black,
+Pennsylvania,Black,-13
+Puerto Rico,Black,
+Rhode Island,Black,-8
+South Carolina,Black,-3
+South Dakota,Black,0
+Tennessee,Black,-12
+Texas,Black,-7
+Utah,Black,
+Vermont,Black,
+Virginia,Black,-19
+Washington,Black,-3
+West Virginia,Black,
+Wisconsin,Black,-11
+Wyoming,Black,
+National,Hispanic,-7
+Alabama,Hispanic,2
+Alaska,Hispanic,1
+Arizona,Hispanic,-6
+Arkansas,Hispanic,-9
+California,Hispanic,-6
+Colorado,Hispanic,-8
+Connecticut,Hispanic,-9
+Delaware,Hispanic,-14
+District of Columbia,Hispanic,-10
+Florida,Hispanic,-6
+Georgia,Hispanic,-1
+Hawaii,Hispanic,-5
+Idaho,Hispanic,-8
+Illinois,Hispanic,-9
+Indiana,Hispanic,-11
+Iowa,Hispanic,-4
+Kansas,Hispanic,-7
+Kentucky,Hispanic,-1
+Louisiana,Hispanic,-2
+Maine,Hispanic,
+Maryland,Hispanic,-18
+Massachusetts,Hispanic,-10
+Michigan,Hispanic,3
+Minnesota,Hispanic,-7
+Mississippi,Hispanic,-5
+Missouri,Hispanic,-6
+Montana,Hispanic,-5
+Nebraska,Hispanic,-7
+Nevada,Hispanic,-9
+New Hampshire,Hispanic,-8
+New Jersey,Hispanic,-8
+New Mexico,Hispanic,-9
+New York,Hispanic,-11
+North Carolina,Hispanic,-10
+North Dakota,Hispanic,-2
+Ohio,Hispanic,-19
+Oklahoma,Hispanic,-7
+Oregon,Hispanic,-6
+Pennsylvania,Hispanic,-3
+Puerto Rico,Hispanic,-7
+Rhode Island,Hispanic,-7
+South Carolina,Hispanic,-3
+South Dakota,Hispanic,2
+Tennessee,Hispanic,3
+Texas,Hispanic,-7
+Utah,Hispanic,-7
+Vermont,Hispanic,
+Virginia,Hispanic,-17
+Washington,Hispanic,-6
+West Virginia,Hispanic,
+Wisconsin,Hispanic,-3
+Wyoming,Hispanic,-2
+National,Asian/Pacific Islander,-3
+Alabama,Asian/Pacific Islander,
+Alaska,Asian/Pacific Islander,-4
+Arizona,Asian/Pacific Islander,-12
+Arkansas,Asian/Pacific Islander,
+California,Asian/Pacific Islander,2
+Colorado,Asian/Pacific Islander,-1
+Connecticut,Asian/Pacific Islander,-4
+Delaware,Asian/Pacific Islander,-14
+District of Columbia,Asian/Pacific Islander,
+Florida,Asian/Pacific Islander,-4
+Georgia,Asian/Pacific Islander,-11
+Hawaii,Asian/Pacific Islander,-2
+Idaho,Asian/Pacific Islander,
+Illinois,Asian/Pacific Islander,6
+Indiana,Asian/Pacific Islander,
+Iowa,Asian/Pacific Islander,
+Kansas,Asian/Pacific Islander,
+Kentucky,Asian/Pacific Islander,-5
+Louisiana,Asian/Pacific Islander,
+Maine,Asian/Pacific Islander,
+Maryland,Asian/Pacific Islander,-9
+Massachusetts,Asian/Pacific Islander,-3
+Michigan,Asian/Pacific Islander,3
+Minnesota,Asian/Pacific Islander,-19
+Mississippi,Asian/Pacific Islander,
+Missouri,Asian/Pacific Islander,
+Montana,Asian/Pacific Islander,
+Nebraska,Asian/Pacific Islander,7
+Nevada,Asian/Pacific Islander,-4
+New Hampshire,Asian/Pacific Islander,
+New Jersey,Asian/Pacific Islander,0
+New Mexico,Asian/Pacific Islander,
+New York,Asian/Pacific Islander,-9
+North Carolina,Asian/Pacific Islander,-2
+North Dakota,Asian/Pacific Islander,
+Ohio,Asian/Pacific Islander,-7
+Oklahoma,Asian/Pacific Islander,
+Oregon,Asian/Pacific Islander,-14
+Pennsylvania,Asian/Pacific Islander,-2
+Puerto Rico,Asian/Pacific Islander,
+Rhode Island,Asian/Pacific Islander,-1
+South Carolina,Asian/Pacific Islander,
+South Dakota,Asian/Pacific Islander,
+Tennessee,Asian/Pacific Islander,
+Texas,Asian/Pacific Islander,-10
+Utah,Asian/Pacific Islander,-9
+Vermont,Asian/Pacific Islander,
+Virginia,Asian/Pacific Islander,-8
+Washington,Asian/Pacific Islander,-11
+West Virginia,Asian/Pacific Islander,
+Wisconsin,Asian/Pacific Islander,2
+Wyoming,Asian/Pacific Islander,
+National,American Indian/Alaska Native,-6
+Alabama,American Indian/Alaska Native,
+Alaska,American Indian/Alaska Native,-12
+Arizona,American Indian/Alaska Native,-14
+Arkansas,American Indian/Alaska Native,
+California,American Indian/Alaska Native,
+Colorado,American Indian/Alaska Native,
+Connecticut,American Indian/Alaska Native,
+Delaware,American Indian/Alaska Native,
+District of Columbia,American Indian/Alaska Native,
+Florida,American Indian/Alaska Native,
+Georgia,American Indian/Alaska Native,
+Hawaii,American Indian/Alaska Native,
+Idaho,American Indian/Alaska Native,
+Illinois,American Indian/Alaska Native,
+Indiana,American Indian/Alaska Native,
+Iowa,American Indian/Alaska Native,
+Kansas,American Indian/Alaska Native,
+Kentucky,American Indian/Alaska Native,
+Louisiana,American Indian/Alaska Native,
+Maine,American Indian/Alaska Native,
+Maryland,American Indian/Alaska Native,
+Massachusetts,American Indian/Alaska Native,
+Michigan,American Indian/Alaska Native,
+Minnesota,American Indian/Alaska Native,
+Mississippi,American Indian/Alaska Native,
+Missouri,American Indian/Alaska Native,
+Montana,American Indian/Alaska Native,-11
+Nebraska,American Indian/Alaska Native,
+Nevada,American Indian/Alaska Native,
+New Hampshire,American Indian/Alaska Native,
+New Jersey,American Indian/Alaska Native,
+New Mexico,American Indian/Alaska Native,-8
+New York,American Indian/Alaska Native,
+North Carolina,American Indian/Alaska Native,
+North Dakota,American Indian/Alaska Native,-11
+Ohio,American Indian/Alaska Native,
+Oklahoma,American Indian/Alaska Native,-10
+Oregon,American Indian/Alaska Native,
+Pennsylvania,American Indian/Alaska Native,
+Puerto Rico,American Indian/Alaska Native,
+Rhode Island,American Indian/Alaska Native,
+South Carolina,American Indian/Alaska Native,
+South Dakota,American Indian/Alaska Native,-4
+Tennessee,American Indian/Alaska Native,
+Texas,American Indian/Alaska Native,
+Utah,American Indian/Alaska Native,
+Vermont,American Indian/Alaska Native,
+Virginia,American Indian/Alaska Native,
+Washington,American Indian/Alaska Native,
+West Virginia,American Indian/Alaska Native,
+Wisconsin,American Indian/Alaska Native,
+Wyoming,American Indian/Alaska Native,
+National,Two or more races,-5
+Alabama,Two or more races,
+Alaska,Two or more races,-5
+Arizona,Two or more races,0
+Arkansas,Two or more races,
+California,Two or more races,-12
+Colorado,Two or more races,-6
+Connecticut,Two or more races,2
+Delaware,Two or more races,-12
+District of Columbia,Two or more races,
+Florida,Two or more races,-2
+Georgia,Two or more races,-10
+Hawaii,Two or more races,2
+Idaho,Two or more races,-4
+Illinois,Two or more races,12
+Indiana,Two or more races,-9
+Iowa,Two or more races,-2
+Kansas,Two or more races,0
+Kentucky,Two or more races,-4
+Louisiana,Two or more races,-11
+Maine,Two or more races,-3
+Maryland,Two or more races,4
+Massachusetts,Two or more races,2
+Michigan,Two or more races,-2
+Minnesota,Two or more races,-11
+Mississippi,Two or more races,-7
+Missouri,Two or more races,-7
+Montana,Two or more races,-10
+Nebraska,Two or more races,0
+Nevada,Two or more races,-1
+New Hampshire,Two or more races,
+New Jersey,Two or more races,
+New Mexico,Two or more races,
+New York,Two or more races,-25
+North Carolina,Two or more races,7
+North Dakota,Two or more races,
+Ohio,Two or more races,-5
+Oklahoma,Two or more races,-3
+Oregon,Two or more races,-3
+Pennsylvania,Two or more races,-10
+Puerto Rico,Two or more races,
+Rhode Island,Two or more races,-1
+South Carolina,Two or more races,-6
+South Dakota,Two or more races,0
+Tennessee,Two or more races,-1
+Texas,Two or more races,7
+Utah,Two or more races,-1
+Vermont,Two or more races,-3
+Virginia,Two or more races,-11
+Washington,Two or more races,-3
+West Virginia,Two or more races,-14
+Wisconsin,Two or more races,5
+Wyoming,Two or more races,
+National,Male,-3
+Alabama,Male,4
+Alaska,Male,-9
+Arizona,Male,-5
+Arkansas,Male,-5
+California,Male,-2
+Colorado,Male,-6
+Connecticut,Male,-9
+Delaware,Male,-14
+District of Columbia,Male,-11
+Florida,Male,-4
+Georgia,Male,-2
+Hawaii,Male,-1
+Idaho,Male,-2
+Illinois,Male,1
+Indiana,Male,-4
+Iowa,Male,0
+Kansas,Male,-5
+Kentucky,Male,-3
+Louisiana,Male,-2
+Maine,Male,-7
+Maryland,Male,-9
+Massachusetts,Male,-3
+Michigan,Male,-3
+Minnesota,Male,-8
+Mississippi,Male,-7
+Missouri,Male,-4
+Montana,Male,-2
+Nebraska,Male,-3
+Nevada,Male,-3
+New Hampshire,Male,-6
+New Jersey,Male,-5
+New Mexico,Male,-9
+New York,Male,-8
+North Carolina,Male,-5
+North Dakota,Male,-2
+Ohio,Male,-4
+Oklahoma,Male,-8
+Oregon,Male,-8
+Pennsylvania,Male,-5
+Puerto Rico,Male,-6
+Rhode Island,Male,-5
+South Carolina,Male,-3
+South Dakota,Male,-3
+Tennessee,Male,-2
+Texas,Male,-3
+Utah,Male,-1
+Vermont,Male,-3
+Virginia,Male,-9
+Washington,Male,-5
+West Virginia,Male,-4
+Wisconsin,Male,-1
+Wyoming,Male,-2
+National,Female,-6
+Alabama,Female,-2
+Alaska,Female,-4
+Arizona,Female,-6
+Arkansas,Female,-5
+California,Female,-6
+Colorado,Female,-6
+Connecticut,Female,-5
+Delaware,Female,-14
+District of Columbia,Female,-12
+Florida,Female,-6
+Georgia,Female,-3
+Hawaii,Female,-4
+Idaho,Female,-9
+Illinois,Female,-2
+Indiana,Female,-7
+Iowa,Female,-2
+Kansas,Female,-4
+Kentucky,Female,-7
+Louisiana,Female,-3
+Maine,Female,-8
+Maryland,Female,-11
+Massachusetts,Female,-8
+Michigan,Female,-5
+Minnesota,Female,-11
+Mississippi,Female,-8
+Missouri,Female,-8
+Montana,Female,-3
+Nebraska,Female,-1
+Nevada,Female,-10
+New Hampshire,Female,-4
+New Jersey,Female,-9
+New Mexico,Female,-11
+New York,Female,-11
+North Carolina,Female,-6
+North Dakota,Female,-4
+Ohio,Female,-3
+Oklahoma,Female,-8
+Oregon,Female,-8
+Pennsylvania,Female,-8
+Puerto Rico,Female,-8
+Rhode Island,Female,-6
+South Carolina,Female,-2
+South Dakota,Female,-2
+Tennessee,Female,-4
+Texas,Female,-7
+Utah,Female,-7
+Vermont,Female,-6
+Virginia,Female,-12
+Washington,Female,-4
+West Virginia,Female,-7
+Wisconsin,Female,-2
+Wyoming,Female,-3
+National,Eligible,-6
+Alabama,Eligible,-2
+Alaska,Eligible,-7
+Arizona,Eligible,-8
+Arkansas,Eligible,-5
+California,Eligible,-5
+Colorado,Eligible,-5
+Connecticut,Eligible,-8
+Delaware,Eligible,-17
+District of Columbia,Eligible,-13
+Florida,Eligible,-6
+Georgia,Eligible,-2
+Hawaii,Eligible,-1
+Idaho,Eligible,-7
+Illinois,Eligible,-5
+Indiana,Eligible,-6
+Iowa,Eligible,-1
+Kansas,Eligible,-8
+Kentucky,Eligible,-6
+Louisiana,Eligible,-3
+Maine,Eligible,-10
+Maryland,Eligible,-14
+Massachusetts,Eligible,-6
+Michigan,Eligible,-4
+Minnesota,Eligible,-12
+Mississippi,Eligible,-7
+Missouri,Eligible,-13
+Montana,Eligible,-4
+Nebraska,Eligible,-7
+Nevada,Eligible,-4
+New Hampshire,Eligible,-8
+New Jersey,Eligible,-11
+New Mexico,Eligible,-10
+New York,Eligible,-9
+North Carolina,Eligible,-11
+North Dakota,Eligible,-6
+Ohio,Eligible,-9
+Oklahoma,Eligible,-8
+Oregon,Eligible,1
+Pennsylvania,Eligible,-4
+Puerto Rico,Eligible,-9
+Rhode Island,Eligible,-7
+South Carolina,Eligible,-3
+South Dakota,Eligible,-6
+Tennessee,Eligible,-5
+Texas,Eligible,-7
+Utah,Eligible,-10
+Vermont,Eligible,-10
+Virginia,Eligible,-16
+Washington,Eligible,-6
+West Virginia,Eligible,-2
+Wisconsin,Eligible,-2
+Wyoming,Eligible,-4
+National,Not eligible,-5
+Alabama,Not eligible,-1
+Alaska,Not eligible,-7
+Arizona,Not eligible,-9
+Arkansas,Not eligible,-6
+California,Not eligible,-2
+Colorado,Not eligible,-7
+Connecticut,Not eligible,-8
+Delaware,Not eligible,-15
+District of Columbia,Not eligible,-1
+Florida,Not eligible,-5
+Georgia,Not eligible,-9
+Hawaii,Not eligible,-3
+Idaho,Not eligible,-5
+Illinois,Not eligible,1
+Indiana,Not eligible,-6
+Iowa,Not eligible,-3
+Kansas,Not eligible,-4
+Kentucky,Not eligible,-5
+Louisiana,Not eligible,-1
+Maine,Not eligible,-9
+Maryland,Not eligible,-8
+Massachusetts,Not eligible,-3
+Michigan,Not eligible,-2
+Minnesota,Not eligible,-10
+Mississippi,Not eligible,-8
+Missouri,Not eligible,-5
+Montana,Not eligible,-5
+Nebraska,Not eligible,-1
+Nevada,Not eligible,-3
+New Hampshire,Not eligible,-8
+New Jersey,Not eligible,-7
+New Mexico,Not eligible,-11
+New York,Not eligible,-8
+North Carolina,Not eligible,-6
+North Dakota,Not eligible,-4
+Ohio,Not eligible,-2
+Oklahoma,Not eligible,-8
+Oregon,Not eligible,
+Pennsylvania,Not eligible,-8
+Puerto Rico,Not eligible,
+Rhode Island,Not eligible,-7
+South Carolina,Not eligible,-3
+South Dakota,Not eligible,-3
+Tennessee,Not eligible,-3
+Texas,Not eligible,-4
+Utah,Not eligible,-2
+Vermont,Not eligible,-2
+Virginia,Not eligible,-7
+Washington,Not eligible,-5
+West Virginia,Not eligible,-9
+Wisconsin,Not eligible,-2
+Wyoming,Not eligible,-4
+National,Not identified as students with disabilities,-5
+Alabama,Not identified as students with disabilities,-2
+Alaska,Not identified as students with disabilities,-6
+Arizona,Not identified as students with disabilities,-6
+Arkansas,Not identified as students with disabilities,-5
+California,Not identified as students with disabilities,-5
+Colorado,Not identified as students with disabilities,-6
+Connecticut,Not identified as students with disabilities,-7
+Delaware,Not identified as students with disabilities,-14
+District of Columbia,Not identified as students with disabilities,-13
+Florida,Not identified as students with disabilities,-6
+Georgia,Not identified as students with disabilities,-3
+Hawaii,Not identified as students with disabilities,-2
+Idaho,Not identified as students with disabilities,-6
+Illinois,Not identified as students with disabilities,-2
+Indiana,Not identified as students with disabilities,-5
+Iowa,Not identified as students with disabilities,-1
+Kansas,Not identified as students with disabilities,-4
+Kentucky,Not identified as students with disabilities,-6
+Louisiana,Not identified as students with disabilities,-3
+Maine,Not identified as students with disabilities,-8
+Maryland,Not identified as students with disabilities,-11
+Massachusetts,Not identified as students with disabilities,-6
+Michigan,Not identified as students with disabilities,-4
+Minnesota,Not identified as students with disabilities,-10
+Mississippi,Not identified as students with disabilities,-7
+Missouri,Not identified as students with disabilities,-5
+Montana,Not identified as students with disabilities,-3
+Nebraska,Not identified as students with disabilities,-3
+Nevada,Not identified as students with disabilities,-7
+New Hampshire,Not identified as students with disabilities,-5
+New Jersey,Not identified as students with disabilities,-7
+New Mexico,Not identified as students with disabilities,-11
+New York,Not identified as students with disabilities,-10
+North Carolina,Not identified as students with disabilities,-5
+North Dakota,Not identified as students with disabilities,-2
+Ohio,Not identified as students with disabilities,-2
+Oklahoma,Not identified as students with disabilities,-8
+Oregon,Not identified as students with disabilities,-9
+Pennsylvania,Not identified as students with disabilities,-6
+Puerto Rico,Not identified as students with disabilities,-6
+Rhode Island,Not identified as students with disabilities,-6
+South Carolina,Not identified as students with disabilities,-2
+South Dakota,Not identified as students with disabilities,-3
+Tennessee,Not identified as students with disabilities,-4
+Texas,Not identified as students with disabilities,-4
+Utah,Not identified as students with disabilities,-3
+Vermont,Not identified as students with disabilities,-4
+Virginia,Not identified as students with disabilities,-11
+Washington,Not identified as students with disabilities,-4
+West Virginia,Not identified as students with disabilities,-6
+Wisconsin,Not identified as students with disabilities,-2
+Wyoming,Not identified as students with disabilities,-3
+National,Identified as students with disabilities,-2
+Alabama,Identified as students with disabilities,15
+Alaska,Identified as students with disabilities,-5
+Arizona,Identified as students with disabilities,-3
+Arkansas,Identified as students with disabilities,-4
+California,Identified as students with disabilities,-1
+Colorado,Identified as students with disabilities,2
+Connecticut,Identified as students with disabilities,-7
+Delaware,Identified as students with disabilities,-9
+District of Columbia,Identified as students with disabilities,-7
+Florida,Identified as students with disabilities,-3
+Georgia,Identified as students with disabilities,1
+Hawaii,Identified as students with disabilities,-6
+Idaho,Identified as students with disabilities,-2
+Illinois,Identified as students with disabilities,12
+Indiana,Identified as students with disabilities,-6
+Iowa,Identified as students with disabilities,7
+Kansas,Identified as students with disabilities,0
+Kentucky,Identified as students with disabilities,-4
+Louisiana,Identified as students with disabilities,-3
+Maine,Identified as students with disabilities,-7
+Maryland,Identified as students with disabilities,-3
+Massachusetts,Identified as students with disabilities,-7
+Michigan,Identified as students with disabilities,0
+Minnesota,Identified as students with disabilities,-5
+Mississippi,Identified as students with disabilities,-7
+Missouri,Identified as students with disabilities,-5
+Montana,Identified as students with disabilities,0
+Nebraska,Identified as students with disabilities,-1
+Nevada,Identified as students with disabilities,-1
+New Hampshire,Identified as students with disabilities,-7
+New Jersey,Identified as students with disabilities,-3
+New Mexico,Identified as students with disabilities,-4
+New York,Identified as students with disabilities,-6
+North Carolina,Identified as students with disabilities,-2
+North Dakota,Identified as students with disabilities,-4
+Ohio,Identified as students with disabilities,-7
+Oklahoma,Identified as students with disabilities,-7
+Oregon,Identified as students with disabilities,-5
+Pennsylvania,Identified as students with disabilities,-8
+Puerto Rico,Identified as students with disabilities,-6
+Rhode Island,Identified as students with disabilities,-3
+South Carolina,Identified as students with disabilities,-4
+South Dakota,Identified as students with disabilities,1
+Tennessee,Identified as students with disabilities,-2
+Texas,Identified as students with disabilities,-1
+Utah,Identified as students with disabilities,-6
+Vermont,Identified as students with disabilities,-6
+Virginia,Identified as students with disabilities,-12
+Washington,Identified as students with disabilities,-3
+West Virginia,Identified as students with disabilities,-3
+Wisconsin,Identified as students with disabilities,5
+Wyoming,Identified as students with disabilities,-1
+National,ELL,-4
+Alabama,ELL,4
+Alaska,ELL,-5
+Arizona,ELL,-10
+Arkansas,ELL,-8
+California,ELL,0
+Colorado,ELL,-4
+Connecticut,ELL,-7
+Delaware,ELL,-16
+District of Columbia,ELL,-3
+Florida,ELL,-8
+Georgia,ELL,-3
+Hawaii,ELL,7
+Idaho,ELL,-9
+Illinois,ELL,-2
+Indiana,ELL,-12
+Iowa,ELL,-7
+Kansas,ELL,-1
+Kentucky,ELL,0
+Louisiana,ELL,-10
+Maine,ELL,
+Maryland,ELL,-17
+Massachusetts,ELL,-4
+Michigan,ELL,4
+Minnesota,ELL,-13
+Mississippi,ELL,-4
+Missouri,ELL,-9
+Montana,ELL,
+Nebraska,ELL,-10
+Nevada,ELL,-6
+New Hampshire,ELL,-11
+New Jersey,ELL,-3
+New Mexico,ELL,-10
+New York,ELL,-7
+North Carolina,ELL,-10
+North Dakota,ELL,-4
+Ohio,ELL,-10
+Oklahoma,ELL,-1
+Oregon,ELL,-3
+Pennsylvania,ELL,7
+Puerto Rico,ELL,
+Rhode Island,ELL,-4
+South Carolina,ELL,-2
+South Dakota,ELL,-3
+Tennessee,ELL,2
+Texas,ELL,-4
+Utah,ELL,-5
+Vermont,ELL,
+Virginia,ELL,-14
+Washington,ELL,-7
+West Virginia,ELL,
+Wisconsin,ELL,-1
+Wyoming,ELL,-3
+National,Not ELL,-4
+Alabama,Not ELL,0
+Alaska,Not ELL,-7
+Arizona,Not ELL,-5
+Arkansas,Not ELL,-5
+California,Not ELL,-5
+Colorado,Not ELL,-6
+Connecticut,Not ELL,-6
+Delaware,Not ELL,-13
+District of Columbia,Not ELL,-13
+Florida,Not ELL,-4
+Georgia,Not ELL,-2
+Hawaii,Not ELL,-4
+Idaho,Not ELL,-6
+Illinois,Not ELL,2
+Indiana,Not ELL,-5
+Iowa,Not ELL,-2
+Kansas,Not ELL,-4
+Kentucky,Not ELL,-6
+Louisiana,Not ELL,-2
+Maine,Not ELL,-8
+Maryland,Not ELL,-8
+Massachusetts,Not ELL,-5
+Michigan,Not ELL,-5
+Minnesota,Not ELL,-9
+Mississippi,Not ELL,-8
+Missouri,Not ELL,-6
+Montana,Not ELL,-4
+Nebraska,Not ELL,-1
+Nevada,Not ELL,-6
+New Hampshire,Not ELL,-6
+New Jersey,Not ELL,-6
+New Mexico,Not ELL,-10
+New York,Not ELL,-9
+North Carolina,Not ELL,-5
+North Dakota,Not ELL,-3
+Ohio,Not ELL,-3
+Oklahoma,Not ELL,-8
+Oregon,Not ELL,-9
+Pennsylvania,Not ELL,-7
+Puerto Rico,Not ELL,
+Rhode Island,Not ELL,-5
+South Carolina,Not ELL,-3
+South Dakota,Not ELL,-2
+Tennessee,Not ELL,-4
+Texas,Not ELL,-5
+Utah,Not ELL,-3
+Vermont,Not ELL,-6
+Virginia,Not ELL,-9
+Washington,Not ELL,-4
+West Virginia,Not ELL,-6
+Wisconsin,Not ELL,-2
+Wyoming,Not ELL,-3

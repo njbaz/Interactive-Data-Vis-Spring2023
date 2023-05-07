@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <title>Interactive Data Visualization Tutorial</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro">
+  </head>
+  <body>
+    <h1>Examining student performance changes during the COVID-19 pandemic</h1>
+    <h4>A visual analysis of <em>4th grade mathematics</em> test scores of public school students pre-COVID (2019) and post-COVID (2022).</h4>
+    <br>
+    <br>
+    <h1>Hover Map</h1>
+    <p>Each state experienced worse test scores in 2022 than in 2019. Hover over the states to see what the state's "Learning Loss" metric was. </p>
+    <p>LearningLossMetric = <em>2019 Average Score</em> - <em>2022 Average Score</em></p>
+    <div id="hover-content"> </div>
+    <div id="container"> </div>
+    <hr>
+    <h1>Explore A State</h1>
+   
+    <p>Each state had different outcomes. Select a state using the dropdown menu to explore the state's scores from 2019 to 2022, as well as how different demographics fared.</p>
+    <label for="dropdown">Filter Selection</label>
+    <select id="dropdown" name="dropdown"></select>
+    <h2>This line chart compares the state's average score to the national average.</h2>
+    
+    <div id="container2"> </div>
+    <h2>This bar chart compares the learning loss of select demographics in the selected state.</h2>
+  
+    <div id="container3"> </div>
+
+    <br>
+    <br>
+    <br>
+
+    <hr>
+    <h1>A Closer Look at Funding</h1>
+    <p>As a result of the COVID-19 pandemic, the US government allocated $189.5 billion of funding to states to support the infrastructure for remote/hybrid learning and to address "Learning Loss" due to the unstable learning enviornment from 2020-2021. </p>
+    <p>Use this scatter plot's hover feature to explore state-by-state COVID relief funding and see if states that had lower per capita
+      funding or a lower percentage of utilized funds had worse outcomes than states with higher per
+      capita funding and better utilization.</p>
+    <div id = "container4"></div>
+    <div id="my_dataviz"
+    <br>
+    <br>
+    <br>
+<hr>
+<div id="sources">
+    <h2>Data Sources</h2>
+    <p><em>Testing and “Learning Loss” Data</em></p>
+    <p>The testing data will be sourced from the Nation’s Report Card, a report on the National
+        Assessment of Educational Progress (NAEP), a standardized assessment developed and
+        administered by National Center for Education Statistics (NCES), within the U.S. Department of
+        Education and the Institute of Education Sciences (IES). You can learn more about the Nation’s
+        Report Card <a href = "https://www.nationsreportcard.gov/about.aspx#:~:text=The%20National%20Assessment%20of%20Educational,reading%2C%20science%2C%20and%20writing.">here</a> and can explore the data available <a href ="https://www.nationsreportcard.gov/ndecore/landing">here.</a></p>
+    <p><em>Funding Data</em></p>
+    <p>As a part of the government response to COVID, funds were set aside to assist schools in
+        transitioning to remote learning and make in-person classrooms safer to mitigate the uncertain
+        learning environment. To investigate how effectively funds were allocated and used, I will be
+        using data from the US Department of Education’s Education Stabilization Fund, which you can
+        explore <a href = "https://covid-relief-data.ed.gov/?utm_content=&utm_medium=email&utm_name=&utm_source=govdelivery&utm_term=">here.</a></p>
+      </div>
+
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+    <script src="main.js"></script>
+    
+  </body>
+</html>

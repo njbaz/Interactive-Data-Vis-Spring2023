@@ -1,0 +1,16 @@
+Group,Demographic,2019Score,2022Score,ScoreDff
+ByRace,All,240,235,-5
+ByRace,White,249,246,-3
+ByRace,Black,224,217,-7
+ByRace,Hispanic,231,224,-7
+ByRace,Asian/PacificIslander,260,257,-3
+ByRace,AmericanIndian/AlaskaNative,227,221,-6
+ByRace,TwoOrMoreRaces,244,239,-5
+ByGender,Male,242,239,-3
+ByGender,Female,239,233,-6
+ByLunchProgramEligibilty,LunchProgramEligible,229,223,-6
+ByLunchProgramEligibilty,NotLunchProgramEligible,253,248,-5
+ByDisabilityStatus,NoDisability,245,240,-5
+ByDisabilityStatus,Disability,214,212,-2
+ByELLStatus,ELL,220,216,-4
+ByELLStatus,NotELL,243,239,-4
