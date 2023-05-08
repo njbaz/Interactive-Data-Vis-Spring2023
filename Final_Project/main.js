@@ -1,9 +1,4 @@
-/**
- * CONSTANTS AND GLOBALS
- * */
-
-
-
+//CONSTANTS & GLOBALS
 //for map
 let svg;
 //for line graph
@@ -13,15 +8,12 @@ let svg3;
 //for scatter plot
 let svg4;
 
-
-
 //for line graph
 let xScale;
 let yScale;
 let yAxis;
 let xAxisGroup;
 let yAxisGroup;
-
 
 
 //for bar chart
@@ -40,23 +32,24 @@ const width = window.innerWidth*0.7,
   margin = { top: 20, bottom: 50, left: 60, right: 40 }
 
 
-
+//for line chart with state/national score comparisons
 let linestate = {
     data: [],
     selection: "National", // + YOUR FILTER SELECTION
   };
 
+//for bar chart with demographic info
   let barDemo = {
     data:[],
-    selection: "Select the Demographic Group...",
   }
 
+//for scatterplot with funding info
 let funddata = {
     data:[],
   }
 
+//for hover map
 let state = {
-    //define with empty array
     geojson: [],
     hover: {
        
@@ -67,10 +60,9 @@ let state = {
 }
 
 ;
-/**
-* LOAD DATA
-* Using a Promise.all([]), we can load more than one dataset at a time
-* */
+
+
+//LOAD DATA
 Promise.all([
     d3.json("usState.json"),
     //FORMAT THIS TO RETURN AN ARRAY OBJECT
@@ -90,15 +82,13 @@ Promise.all([
     init();
 });
 
-/**
-* INITIALIZING FUNCTION
-* this will be run *one time* when the data finishes loading in
-* */
+
+
+//INIT FUNCTION
 function init() {
  
 
 //CHART 1: MAP
-
 //Add SVG
 svg= d3.select("#container")
     .append("svg")
@@ -112,11 +102,22 @@ const projection = d3.geoAlbersUsa().fitSize([width,height],state.geojson)
 //create geopath
 const geoPath = d3.geoPath(projection)
 
+//legend
+svg.append("rect").attr("x",100).attr("y",130).attr("width", 5).attr("height", 10).style("fill", d3.schemeReds[5][0])
+svg.append("text").attr("x", 120).attr("y", 130).text("0").style("font-size", "15px").attr("alignment-baseline","middle")
+svg.append("rect").attr("x",100).attr("y",135).attr("width", 5).attr("height", 10).style("fill", d3.schemeReds[5][1])
+svg.append("rect").attr("x",100).attr("y",140).attr("width", 5).attr("height", 10).style("fill", d3.schemeReds[5][2])
+svg.append("rect").attr("x",100).attr("y",145).attr("width", 5).attr("height", 10).style("fill", d3.schemeReds[5][3])
+svg.append("rect").attr("x",100).attr("y",155).attr("width", 5).attr("height", 10).style("fill",  d3.schemeReds[5][4])
+svg.append("rect").attr("x",100).attr("y",160).attr("width", 5).attr("height", 10).style("fill",  d3.schemeReds[5][5])
+svg.append("text").attr("x", 120).attr("y", 170).text("-13").style("font-size", "15px").attr("alignment-baseline","middle")
+
 //add colorscale
 const mapcolorScale = d3.scaleOrdinal()
   .domain([-13,0])
-  .range(d3.schemeReds[9])
+  .range(d3.schemeReds[5])
   
+
 //draw the map
 svg.selectAll(".state")
     .data(state.geojson.features)
@@ -128,6 +129,8 @@ svg.selectAll(".state")
       return mapcolorScale(d=>d.state.geojson.properties.LEARNINGLOSS);
     })
   
+
+
 
 //add interactivity, use method "mouse over" for hover
 .on("mouseover",(event,d) =>{
@@ -154,8 +157,7 @@ svg.selectAll(".state")
     const xAxis = d3.axisBottom(xScale).ticks(3)
     yAxis = d3.axisLeft(yScale)
 
-    
-      
+       
 // Dropdown Menu
   const selectElement = d3.select("#dropdown")
       
@@ -204,7 +206,6 @@ svg.selectAll(".state")
         .text("Score")
 
 
- 
 
  //legend  
    svg2.append("circle").attr("cx",200).attr("cy",130).attr("r", 5).style("fill", "Black")
@@ -219,6 +220,7 @@ svg.selectAll(".state")
       .attr("alignment-baseline","middle")
       .attr("id","#oldSelection")
 
+ //BENCHMARK LINE - NATIONAL AVERAGE SCORES  
   const natfilteredData = linestate.data
       .filter(d => d.state === "National")
   // specify line generator function
@@ -226,7 +228,7 @@ svg.selectAll(".state")
       .x(d => xScale(d.testyear))
       .y(d => yScale(d.avgscalescore))
   
-    // + DRAW LINE 
+// + DRAW LINE 
     svg2.selectAll(".natline")
       .data([natfilteredData]) // data needs to take an []
       .join("path")
@@ -243,7 +245,7 @@ svg.selectAll(".state")
 barxScale = d3.scaleBand()
  .domain(barDemo.data.map(function(d) { return d.demographic; }))
  .range([margin.right, width - margin.left])
- .paddingInner(.1)
+ .paddingInner(.3)
 
 
 baryScale = d3.scaleLinear()
@@ -293,16 +295,14 @@ selectDemoElement.on("change", event => {
 });
 
 
-
-
-    // + CREATE SVG ELEMENT
+// + CREATE SVG ELEMENT
   svg3 = d3.select("#container3")
     .append("svg")
     .attr("width", width)
     .attr("height", height)
     .attr("id","barchart")
 
-  // + CALL AXES
+// + CALL AXES
   barxAxisGroup = svg3.append("g")
     .attr("class", "xAxis")
     .attr("transform", `translate(${0}, ${height - margin.bottom})`)
@@ -336,9 +336,6 @@ svg3.append("text")
 
 
 
-
-
-
 //-------------------------------------------------------------------------//
 
 //SCATTER PLOT
@@ -361,14 +358,14 @@ const scatteryScale = d3.scaleLinear()
    .attr("id","scatterplot")
 
  // axis scales
- const scatterxAxis = d3.axisBottom(scatterxScale)
+ const scatterxAxis = d3.axisTop(scatterxScale)
  svg4.append("g")
-//  .attr("transform", `translate(0,${height - margin.bottom})`)
+.attr("transform", `translate(0,50)`)
  .call(scatterxAxis);
  
  const scatteryAxis = d3.axisLeft(scatteryScale)
  svg4.append("g")
-   .attr("transform", `translate(${margin.left},0)`)
+   .attr("transform", `translate(${margin.left},50)`)
    .call(scatteryAxis);
 
 
@@ -402,7 +399,7 @@ const mouseleave = function(d) {
 
 
 
- // circles
+ // ADD DOTS
   
  const dot = svg4
    .selectAll("circle")
@@ -411,6 +408,7 @@ const mouseleave = function(d) {
    .attr("cx", d => scatterxScale(d.FundsPerCapita))
    .attr("cy", d => scatteryScale(d.LearningLoss))
    .attr("r", "10")
+   .attr("transform", `translate(0,50)`)
   .attr("fill", d=>d.Fill)
   .on("mouseover", mouseover )
   .on("mousemove", mousemove )
@@ -429,17 +427,19 @@ const mouseleave = function(d) {
  
  svg4.append("text")
    .attr("transform",`translate(0,${height})`)
-   .attr("transform",`translate(${width/2},${height-margin.bottom/2})`)
+   .attr("transform",`translate(${width/2},20)`)
    .style("text-anchor", "middle")
    .text("Funds Per Capita");
- //legend  
- svg4.append("circle").attr("cx",200).attr("cy",130).attr("r", 10).style("fill", "#8B0000")
- svg4.append("text").attr("x", 220).attr("y", 130).text("<55% Funds Utilized").style("font-size", "15px").attr("alignment-baseline","middle") 
- svg4.append("circle").attr("cx",200).attr("cy",160).attr("r", 10).style("fill", "#ffcccb")
- svg4.append("text").attr("x", 220).attr("y", 160).text("55% - 70% Funds Utilized").style("font-size", "15px").attr("alignment-baseline","middle") 
- svg4.append("circle").attr("cx",200).attr("cy",190).attr("r", 10).style("fill", "#3cb371")
- svg4.append("text").attr("x", 220).attr("y", 190).text(">70% Funds Utilized").style("font-size", "15px").attr("alignment-baseline","middle") 
+ 
+//legend  
+ svg4.append("circle").attr("cx",100).attr("cy",130).attr("r", 10).style("fill", "#8B0000")
+ svg4.append("text").attr("x", 120).attr("y", 130).text("<55% Funds Utilized").style("font-size", "15px").attr("alignment-baseline","middle") 
+ svg4.append("circle").attr("cx",100).attr("cy",160).attr("r", 10).style("fill", "#ffcccb")
+ svg4.append("text").attr("x", 120).attr("y", 160).text("55% - 70% Funds Utilized").style("font-size", "15px").attr("alignment-baseline","middle") 
+ svg4.append("circle").attr("cx",100).attr("cy",190).attr("r", 10).style("fill", "#3cb371")
+ svg4.append("text").attr("x", 120).attr("y", 190).text(">70% Funds Utilized").style("font-size", "15px").attr("alignment-baseline","middle") 
 
+//HOVER EVENT
  .on("mouseover",(event,d) =>{
   funddata.hover.State = d.State
   funddata.hover.FundsUtilized = d.PercentUtilized
@@ -448,10 +448,7 @@ const mouseleave = function(d) {
     
 }
 
-/**
-* DRAW FUNCTION
-* we call this every time there is an update to the data/state
-* */
+//DRAW FUNCTION
 
 function draw() {
     
@@ -466,7 +463,7 @@ function draw() {
 
 
 
-//Update state line on line chart...
+//Update state line on line chart
 const filteredData = linestate.data
     .filter(d => d.state === linestate.selection)
 // specify line generator function
@@ -487,7 +484,7 @@ const lineGen = d3.line()
 
 
 
-//update and rects
+//uupdate bar rects
 // Update the data by linestate selection
 const barfilteredData = barDemo.data
     .filter(d => d.state === linestate.selection)
@@ -508,7 +505,7 @@ svg3.append("g")
 
 ,
     update=>update
-
+    .style('opacity', 1)
 ,
     exit => exit
       .call(sel =>sel
@@ -540,6 +537,7 @@ svg3.append("g")
     .call(sel=>sel.transition().duration(500).attr("x", d=>barxScale(d.demographic)))
 ,
     update=>update
+      .style('opacity', 1)
 ,
 
 exit => exit
