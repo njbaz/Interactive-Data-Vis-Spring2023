@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <title>Interactive Data Visualization Tutorial</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro">
+  </head>
+  <body>
+    <h3>US Heat Extremes</h3>
+    <h4>Where the most extreme change in temperature happened in every state</h4>
+    <p>Nicole Baz, Tutorial 2.4</p>
+    <table style="border: 1px solid black;">  
+      <thead><em>Color Key</em></thead>
+      <tr>
+        <td>Green</td>
+        <td>Indicates that the most extreme temperature change in the state was <em>negative</em></em></td>
+      </tr>
+      <tr>
+        <td>Red</td>
+        <td>Indicates that the most extreme temperature change in the state was <em>positive</em></em></td>
+      </tr>
+    </table>
+    <div id="container"> </div>
+    <script src="../lib/d3.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
