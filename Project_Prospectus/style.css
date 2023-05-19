@@ -1,0 +1,15 @@
+body {
+    font-family: 'proxima-nova', sans-serif;
+    background-color: whitesmoke;
+}
+
+#header {
+    background-color: hsla(0, 3%, 6%, 0.665);
+    text-align: center;
+    color: white;
+    border-bottom: 1px;
+}
+
+p,li {
+    font-size: smaller;
+}
